@@ -11,5 +11,5 @@ User Interface (Frontend)
 4.Javascript
 
 Hosting Platform :
-1.GitHub:
-2.Netlify:
+1.GitHub:https://github.com/blackAdamCambodia/weatherApp.git
+2.Netlify:https://dashing-eclair-466826.netlify.app/
