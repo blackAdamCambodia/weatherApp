@@ -1,0 +1,15 @@
+/* ignment Number :1
+Assignment Name: Weather App
+Author: Mohammad Abdul Quaiyum
+Version:1.0.0
+Descrption: Its  a weather app which is Develop HTML,CSS , Bootstrap,Javascript. */
+
+User Interface (Frontend)
+1.HTML
+2.CSS
+3.Bootstrap
+4.Javascript
+
+Hosting Platform :
+1.GitHub:
+2.Netlify:
