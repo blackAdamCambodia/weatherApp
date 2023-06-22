@@ -3,41 +3,50 @@
   <head>
     <meta charset="UTF-8">
     <title>Weather App</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./assets/images/logo_60x60.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
-    <div class="card">
-        <div class="search">
-            <input type="text" placeholder="Enter your city name" spellcheck="false">
-            <button type="button">
-                <img src="./assets/images/search.png" alt="search-icon">
+  <body> 
+    <div class="card mx-auto rounded-4 text-white text-center px-4  pt-5">
+        <h1 class="title">Weather App</h1>
+        <div class="search w-full d-flex align-items-center justify-content-between">
+            <input class="form-control me-4 py-3 ps-5 pe-3   form-control-lg rounded-pill" type="text" placeholder="Enter your city name" spellcheck="false">
+            <button type="button" class="btn btn-lg rounded-circle bg-white ml-3">
+                <img  src="./assets/images/search.png" alt="search-icon">
             </button>
         </div>
+        <div class="error ms-4 mt-3">
+            <h4>Invalid City name</h4>
+        </div>
         <div class="weather">
-            <img src="./assets/images/rain.png" alt="weather-icon">
-            <h1 class="temp">22c</h1>
-            <h2 class="city">New York</h2>
-            <div class="details">
+            <img src="./assets/images/rain.png" class="weather-icon mt-5" alt="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city mt-2">New York</h2>
+            <div class="details d-flex align-items-center justify-content-between mt-5 px-3  py-4 ">
                 <div class="col">
                     <img src="./assets/images/humidity.png" alt="humidity">
                     <div>
                         <p class="humidity">50%</p>
-                        <p>Humidity</p>
+                        <p class="textHighlight">Humidity</p>
                     </div>
                 </div>
                 <div class="col">
                     <img src="./assets/images/wind.png" alt="Wind">
                     <div>
                         <p class="wind">20 km/h</p>
-                        <p>Wind Speed</p>
+                        <p class="textHighlight">Wind Speed</p>
                     </div>
                 </div>
             </div>
 
         </div>
-
+        
     </div>
+    <div class="footer-content">
+        <marquee behavior="scroll" width="90%" scrollamount="20"><p>Note:Before you go Out please check the weather Condition</p></marquee>
+    </div>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/main.js"></script>
   </body>
 </html>
