@@ -1,4 +1,4 @@
-/* ignment Number :1
+/* Assignment Number :1
 Assignment Name: Weather App
 Author: Mohammad Abdul Quaiyum
 Version:1.0.0
